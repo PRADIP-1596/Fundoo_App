@@ -1,0 +1,256 @@
+.first-container{
+    /* margin-top: 20px; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   
+    padding: 48px 40px 25px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(187, 185, 185);
+    border-radius: 10px;
+   width: 40rem;
+    
+    display: flex;
+    flex-direction: row;
+    
+    overflow: hidden;
+    
+}
+.name{
+   
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.fname{
+    
+    width: 48%;
+}
+.lname{
+    width: 48%;
+    
+}
+.email{
+    margin-top: 100px;
+   width: 100%;
+}
+.email1{
+    width: 100%;
+    padding-top: 24px;
+}
+
+.password{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.password1{
+    width: 48%;
+}
+.confirm{
+    width: 48%;
+}
+
+.linepasswrd {
+    font-size: 12px;
+    margin-top: 5px;
+    color:  #5f6368;
+    font-family:roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+.mailinstead{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: blue;
+    padding: 10px 0;
+}
+.signininstead{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: blue;
+    padding: 10px 0;
+}
+.text-link:hover
+{
+    color:#2f3d96;
+    background-color: #ced8f852;
+
+}
+.text-link 
+.sigin-link{
+    padding: 5% 0 10%;
+}
+.check{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ 
+
+.fundoo{
+   
+    box-sizing: border-box;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+height :auto;
+line-height :31.9992px;
+text-align :left;
+text-indent: -1px;
+width: auto;
+-webkit-tap-highlight-color: rgba(0, 0, 0,);
+
+}
+.heading{
+    box-sizing: border-box;
+color: rgb(32, 33, 36);
+font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+height :auto;
+line-height :31.9992px;
+text-align :left;
+text-indent: -1px;
+width: auto;
+-webkit-tap-highlight-color: rgba(0, 0, 0,);
+}
+.letterF{
+    color:blue;
+    
+}
+.letteru{
+    color:red;
+    
+}
+.lettern{
+    color:rgb(255, 209, 4);
+    
+}
+.letterd{
+    color:blue;
+    
+}
+.letterO{
+    color:green;
+    
+}
+.lettero{
+    color:red;
+    
+}
+
+.form{
+   margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.lastsec{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nextbtn{
+    margin-left: 100px;
+}
+.section2{
+    padding-left: 48px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width:600px) {
+    .container{
+        height: 100%;
+        padding: 15px;
+        /* width: 600px; */
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+       margin-left: 0;
+       border: none;
+
+      
+    }
+    .fundoo{
+        padding: 0px;
+    }
+    .section2{
+        display: none;
+    }
+    .form{
+        
+         display: flex;
+         align-items: flex-start;
+         flex-direction: column;
+         justify-content: space-between;
+     
+     }
+     .name{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+        
+     }
+
+     
+     .fname{
+         width: 100%;
+         margin-bottom: 100px;
+         
+        }
+        .lname{
+            margin-top: 20px;
+            width: 100%;
+
+            
+        }
+        
+        .heading{
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .password{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        } 
+         .password1{
+            width: 100%;
+            margin-bottom: 50px;
+           
+        }
+        .confirm{
+            width: 100%;
+           
+        }
+        
+    }
+    
+    
+    
+    
+@media only screen and (max-width:250px) { 
+
+    .last-sec {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+}

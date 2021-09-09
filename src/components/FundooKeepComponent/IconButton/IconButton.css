@@ -1,0 +1,105 @@
+.btn-icon{
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 3%;
+    height: 20px;
+    padding: 2px;
+}
+.btn-icon:hover{
+    background-color: #ebebeb;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.color-palette {
+    width: 130px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.ic-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #a0a0a0;
+    justify-content: space-between;
+}
+
+.color-1 {
+    background-color: #ffffff;
+}
+
+.color-2 {
+    background-color: #f28b82;
+}
+
+.color-3 {
+    background-color: #fbbc04;
+}
+
+.color-4 {
+    background-color: #fff475;
+}
+
+.color-5 {
+    background-color: #ccff90;
+}
+
+.color-6 {
+    background-color: #a7ffeb;
+}
+
+.color-7 {
+    background-color: #cbf0f8;
+}
+
+.color-8 {
+    background-color: #aecbfa;
+}
+
+.color-9 {
+    background-color: #d7aefb;
+}
+
+.color-10 {
+    background-color: #fdcfe8;
+}
+
+.color-11 {
+    background-color: #e6c9a8;
+}
+
+.color-12 {
+    background-color: #e8eaed;
+}
+ul {
+    list-style-type: none;
+    color: #000;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+li {
+    padding: 4px 15px;
+}
+
+li:hover {
+    background-color: #ebebeb;
+}
+
+.optionsPaper {
+    box-shadow: 1px 1px 5px #a0a0a0;
+}
+.fileinputarea {
+    display: none;
+}
+@media only screen and (max-width :650px){
+    .ic-btn{
+        width: 180px;
+        justify-content: space-between;
+    }
+}

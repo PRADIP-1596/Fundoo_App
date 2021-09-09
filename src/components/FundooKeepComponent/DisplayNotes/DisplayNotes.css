@@ -1,0 +1,271 @@
+.note{
+   padding: 10px;
+    width: 300px;
+    /* width: fit-content; */
+    max-height: 100vh;
+    height: fit-content;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    align-content: center !important;
+}
+.note-title{
+    color: #000;
+    font-size: 1rem;
+    font-family: Roboto,Arial,sans-serif;
+}
+.dianote-title{
+    padding: 30px 0;
+    color: #000;
+    font-size: 1rem;
+    font-family: Roboto,Arial,sans-serif;
+}
+.dianote-desc{
+    padding-bottom: 30px;
+}
+
+.note-containerr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-top: 60px;
+
+}
+.showicons{
+    display: flex;
+    visibility: hidden;
+    width: 100%;
+}
+.note:hover >.showicons{
+    visibility: visible;
+ }
+.icon-close{
+    display: flex;
+    padding: 5px;
+}
+.icon-btn{
+    width: 240px;
+    /* overflow: hidden; */
+}
+.dianote-title,.dianote-desc:focus-visible{
+    border: none;
+    outline: none;
+
+}
+.oname{
+    display: flex;
+}
+
+.collab-dialog-box {
+    width: 100%;
+    padding: 30px;
+    padding-top: 80px;
+
+}
+
+.first,
+.second {
+    display: flex;
+}
+
+.first {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.second {
+    padding: 3px;
+    margin-bottom: 30px;
+}
+
+.collab-input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.collab-input:focus {
+    outline: none;
+}
+
+.collab-add-icon {
+    padding: 4px 7px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.dialog-box{
+    width: 100%;
+}
+
+.owner-icon {
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.owner-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.owner-tag {
+    line-height: 0.5;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #818181;
+}
+
+.collab-btns {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: #000;
+}
+
+.collab-profile {
+    margin: 5px;
+    margin-left: 0;
+}
+
+.action-btn {
+    border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+.action-btn:hover {
+    background-color: #9797971a;
+}
+
+.del-email{
+    display: flex;
+    justify-content: space-between;
+}
+.remove-btn{
+    margin-left: 300px;
+}
+
+
+@media only screen and (max-width:1110px) {
+   
+
+    .note-div {
+        width: 245px;
+    }
+}
+
+@media only screen and (max-width:999px) {
+
+    .card-content {
+        padding: 0;
+    }
+
+    .note-div {
+        width: 235px;
+    }
+
+}
+
+@media only screen and (max-width:880px) {
+    
+    .collab-dialog-box {
+        margin-left: 30px;
+
+    }
+
+
+    .collabs-list {
+        width: 100%;
+    }
+
+    .first {
+        width: 400px;
+    }
+
+
+}
+
+@media only screen and (max-width :1020px){
+    .note{
+        width: 260px;
+    }
+}
+@media only screen and (max-width :650px){
+    .note{
+        width: 100%;
+    }
+    .dialog-box{
+        margin-left: 10%;
+        
+    }
+    .icon-btn{
+        margin: 0;
+        padding: 0;
+        width: 180px;
+    }
+    .remove-btn{
+        margin-left: 200px;
+    }
+    .note-containerr{
+        margin-top: 0px; 
+
+    }
+    .takenote{
+        width: 350px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:599px) {
+
+    .first {
+        width: 300px;
+    }
+
+    .displaynotes {
+        padding-left: 50px;
+    }
+    
+    .remove-btn{
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width:499px) {
+    .first {
+        width: 220px;
+    }
+    .remove-btn{
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .note {
+        width: 100%;
+        padding: 10px;
+    }
+    .collab-dialog-box {
+        margin-left: 10px;
+        padding-right: 10px;
+        margin-right: 0;
+    }
+
+    .first {
+        width: 200px;
+    }
+
+    .card-content {
+        padding: 0;
+    }
+    .remove-btn{
+        margin-left: 10px;
+    }
+    .note-containerr{
+        margin: 0;
+    }
+
+}

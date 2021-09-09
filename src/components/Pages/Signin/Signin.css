@@ -1,0 +1,127 @@
+
+.first-container{
+    /* margin-top: 20px; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.signin-container{
+    padding: 48px 40px 25px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(187, 185, 185);
+    border-radius: 10px;
+   width: 30rem;
+   height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    
+    overflow: hidden;
+    
+    /* margin-top: 50px;
+    padding: 48px 40px 36px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(187, 185, 185);
+    border-radius: 10px;
+    margin-left: 400px;
+    width: 30rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+.sign-email1{
+    width: 100%;
+    margin-top: 5%;
+}
+.fundoo-sign{
+    align-self: center;
+}
+.Login-sign{
+    box-sizing: border-box;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+height :auto;
+line-height :31.9992px;
+text-align :center;
+text-indent: -1px;
+width: auto;
+-webkit-tap-highlight-color: rgba(0, 0, 0,);
+}
+.heading-sign{
+    box-sizing: border-box;
+color: rgb(32, 33, 36);
+font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+font-size: 24px;
+font-weight: 400;
+height :auto;
+line-height :31.9992px;
+text-align :center;
+text-indent: -1px;
+width: auto;
+-webkit-tap-highlight-color: rgba(0, 0, 0,);
+}
+.heading-account{
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color:rgb(47, 48, 49);;
+}
+.forgot-email{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: blue;
+}
+.forgotemail-link{
+    margin-top: -20px;
+    padding: 0;
+}
+.notcomp{
+    margin-top: 50px;
+    text-align: left;
+}
+@media only screen and (max-width:600px) {
+    .signin-container{
+        height: 100%;
+        padding: 10%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        border: none;
+       overflow: hidden;
+       
+    }
+    
+    
+    body{
+        justify-content: center;
+        overflow-x: scroll;
+        
+    }
+
+    .fundoo-sign {
+       
+        align-items:flex-start;
+    }
+
+    .heading-sign,
+    .heading-account {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:250px) { 
+
+    .last-sec {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+}
